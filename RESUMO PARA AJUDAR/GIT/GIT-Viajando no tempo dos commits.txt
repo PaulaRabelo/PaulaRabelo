@@ -1,0 +1,23 @@
+Viajando no tempo
+
+git checkout
+
+A descrição do comando git checkout --help, em uma tradução livre é:
+"Atualizar os arquivos na working tree para ficarem na versão
+especificada. [...]". Basicamente, podemos deixar o nosso código no
+estado do último commit de uma branch, de um commit específico, ou mesmo
+tags (que veremos adiante).
+
+Vai voltar até esse está de commit da brach
+
+Comando:
+git checkout 6-primeiro-digitos-do-commit
+
+
+Se eu quiser salvar as modificações realizadas nesse commit reverso e não
+perde-las, tenho que criar uma nova branch
+
+Comando: 
+git checkout -b nova-branch
+
+Assim não perderei as alterações feitas. 

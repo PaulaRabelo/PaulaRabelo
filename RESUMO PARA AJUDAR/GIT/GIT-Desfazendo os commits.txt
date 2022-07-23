@@ -1,0 +1,24 @@
+Desfazer alterações em um arquivo que ainda não foi adicionado. 
+
+git checkout -- nome-do-arquivo
+
+
+Como alterar um arquivo que já foi adicionando com git add
+
+git reset HEAD nome-do-arquivo
+
+
+Como alterar um arquivo que foi adicionado e comitado
+
+Primeiro precisamos identificar o rash do commit usamos
+Comando:
+git log
+
+Depois:
+git revert identificador-do-commit
+
+Com o git checkout nós desfazemos uma alteração que ainda não foi 
+adicionada ao index ou stage, ou seja, antes do git add. Depois de 
+adicionar com git add, para desfazer uma alteração, precisamos 
+tirá-la deste estado, com git reset. Agora, se já realizamos o 
+commit, o comando git revert pode nos salvar.

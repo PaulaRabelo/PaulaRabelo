@@ -1,0 +1,10 @@
+Como transformamos um campo comum em um de preenchimento obrigatório?
+
+
+Quando adicionamos a propriedade required, o 
+navegador nos ajuda a validar se aquele campo está preenchido.
+
+Exemplo: 
+
+ <label for="nomesobrenome">Nome e sobrenome</label>
+ <input type="text" id="nomesobrenome" class="input-padrao" required>

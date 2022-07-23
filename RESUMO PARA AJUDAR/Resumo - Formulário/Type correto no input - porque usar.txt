@@ -1,0 +1,6 @@
+Porque usar campos com os type específicos pra eles?
+
+Site que dá a base para consultar quais modificação é feita
+quando se usa o type correto e é acessado o celular. 
+
+http://mobileinputtypes.com/

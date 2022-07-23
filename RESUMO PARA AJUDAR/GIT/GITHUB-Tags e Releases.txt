@@ -1,0 +1,31 @@
+Tags e Releases
+
+Salvar uma versão do projeto no github
+
+Comando:
+git tag -a v0.1.0 
+
+Colocando uma mensagem na versão
+
+Comando:
+git tag -a v0.1.0 -m "mensagem-para-falar-do-que-significa-a-versão"
+
+Após, roda o comando abaixo, vai mostrar todos as versões disponíveis. 
+
+Comando:
+git tag
+
+Adicionar a versão no github
+
+Comando:
+git push origin v0.1.0
+
+
+Vimos no último vídeo como gerar versões, ou marcos interessantes
+em nosso sistema de controle de versões.
+
+Que resultado gera o envio de uma tag para o GitHub?
+
+O GitHub nos dá a possibilidade de baixar um arquivo compactado
+contendo o código no estado em que a tag foi gerada.
+

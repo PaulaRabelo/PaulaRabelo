@@ -1,0 +1,24 @@
+Label e Input são necessários qual é feito um formulário
+
+Exemplo de estrutura de form.
+
+ 	<form>
+            <label for="nomesobrenome">Nome e sobrenome</label>
+            <input type="text" id="nomesobrenome">
+
+            <label for="email">Email</label>
+            <input type="text" id="email">
+
+            <label for="telefone">Telefone</label>
+            <input type="text" id="telefone">
+
+            <input type="submit" value="Enviar Formulário">
+        </form>
+
+O label é uma etiqueta para se comunicar com o input e isso é realizado
+atraves do for e o id em cada um contendo o mesmo nome, assim facilita a
+interação do usuário até se o campo input for pequeno demais no site. 
+
+o input tipo submit, faz com que o campo vire um botão de submeter e o 
+value faz com que o valor seja impresso na tela para que não mude o que está 
+inscrito lá. 

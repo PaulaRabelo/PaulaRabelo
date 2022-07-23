@@ -1,0 +1,15 @@
+Opacidade nos elementos
+
+Usando o opacity em CSS, ele faz com que nosso elemento fique mais apagado
+ou mais vido, depende de como é usado. O transition está fazendo a transição
+do passar do mouse e deixando ele opaco com o que foi colocado no :hover.
+
+.imagem-beneficios{
+    width: 60%;
+    opacity: 1;
+    transition: 400ms;
+}
+
+.imagem-beneficios:hover{
+    opacity: 0.3;
+}

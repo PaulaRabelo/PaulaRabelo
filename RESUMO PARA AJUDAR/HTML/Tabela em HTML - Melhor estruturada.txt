@@ -1,0 +1,31 @@
+Como dividir uma tabela de forma mais semântica?
+
+Alternativa correta! As tags <thead>, <tbody> e <tfoot> 
+ajudam a deixar o conteúdo da tabela mais bem dividido 
+e mais semântico.
+
+Exemplo de uma tabela melhor montadado semanticamente. 
+
+<table>
+            <thead>
+                <tr>
+                    <th>Dia</th>
+                    <th>Horário</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Segunda</td>
+                    <td>Das 8h - 20h</td>
+                </tr>
+                <tr>
+                    <td>Quarta</td>
+                    <td>Das 8h - 20h</td>
+                </tr>
+                <tr>
+                    <td>Sexta</td>
+                    <td>Das 8h - 20h</td>
+                </tr>
+            </tbody>
+            
+</table>

@@ -1,0 +1,42 @@
+Comando para entender o GIT
+
+---------------------------------------------------------------------
+-----Verificar o histórico no GITHUB
+
+Comando:
+git log
+
+Após esse comando vemos o hash que tem para cada commit um identificador
+único
+A próxima identificação é o ramo onde esse commit está. 
+
+
+Montra menos - as modificações do commit em uma única linha de uma forma resumida.
+Comando:
+git log --oneline
+
+Mostra tudo - tudo o que foi feito no commit e todas as informações.
+Comando:
+git log -p
+
+
+----------------------------------------------------------------------
+---Visualizar as configurações
+
+Comando:
+git config user.email
+
+git config user.name
+
+-----Mudar configurações do git
+
+Comando:
+git config
+
+---Permite mudar somente o projeto que está
+git config --local
+
+--Configuração que grava o nome da pessoa, passamos assim:
+git config --local user.name "Nome Sobrenome"
+
+git config --global

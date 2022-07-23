@@ -1,0 +1,18 @@
+Contexto do GITHUB
+
+Ao executar o comando git status, recebemos algumas informações que talvez
+não estejam tão claras, principalmente quando nos deparamos com termos
+como HEAD, working tree, index, etc.
+
+Apenas para esclarecer um pouco, visto que entenderemos melhor o 
+funcionamento do Git durante o treinamento, seguem algumas definições
+interessantes:
+
+
+HEAD: Estado atual do nosso código, ou seja, onde o Git os colocou
+
+Working tree: Local onde os arquivos realmente estão sendo armazenados
+e editados
+
+index: Local onde o Git armazena o que será commitado, ou seja, o local
+entre a working tree e o repositório Git em si.

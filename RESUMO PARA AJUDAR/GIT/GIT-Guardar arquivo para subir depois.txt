@@ -1,0 +1,40 @@
+Guardar para depois
+
+Vimos como podemos utilizar git stash para armazenar temporariamente
+algumas de nossas alterações.
+
+Quando precisamos pausar o desenvolvimento de alguma funcionalidade, 
+ou correção, antes de finalizar, talvez não seja interessante realizar
+um commit, pois o nosso código pode não estar funcionando ainda. Nesse
+caso é interessante salvar o trabalho para podermos voltar a ele depois.
+
+Como deixar o arquivo de standby para ser modificado futuramente, sem 
+ser comitado, pois ainda não foi concluído. 
+
+Comando:
+git stash
+
+
+Salva do dados que foram modificados.
+
+Comando:
+git stash list
+
+Vai listar tudo o que está salvo no stash
+
+Se eu quiser trazer isso novamente para ser trabalhado
+O numero é a posição da aplicação
+Comando: 
+git stash apply 0
+
+Assim trará todas as modificações
+Comando:
+git stash drop
+
+Se eu quiser pegar e logo remover essa alteração que está lá, uso o comando
+abaixo, pois ele tira e remove o último elemento. 
+Comando:
+git stash pop
+
+Após aplicado ele faz o merger com as modificações que já tem e vai 
+aplicar com o que já estava a outra alteração que foi feita. 

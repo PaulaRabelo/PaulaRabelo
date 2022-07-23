@@ -1,0 +1,3 @@
+Rezetar o token
+
+git config credential.helper store

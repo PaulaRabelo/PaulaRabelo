@@ -1,0 +1,14 @@
+Como ignorar arquivos que não quero que sejam monitorados pelo git
+
+Precisa criar um arquivo chamado 
+
+Criar arquivo
+.gitignore
+
+Dentro deste arquivo precisamos colocar o que é preciso ser ignorado
+
+arquivos
+nome-do-arquivo
+
+pasta
+nome-da-pasta/

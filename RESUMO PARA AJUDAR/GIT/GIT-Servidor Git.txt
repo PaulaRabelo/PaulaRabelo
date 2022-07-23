@@ -1,0 +1,14 @@
+Servidor Git
+
+criar um novo repositório, que será utilizado como o nosso "servidor" Git,
+ou seja, todos os membros da equipe o acessarão para compartilhar suas
+mudanças.
+
+Comando:
+git init --bare
+
+Alternativa correta! Com este comando nós criamos um repositório que
+não terá a working tree, ou seja, não conterá uma cópia dos nossos
+arquivos. Como o repositório servirá apenas como servidor, para que
+outros membros da equipe sincronizem seus trabalhos, poupamos espaço
+de armazenamento desta forma.

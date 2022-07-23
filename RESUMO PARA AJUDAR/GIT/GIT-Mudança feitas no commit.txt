@@ -1,0 +1,31 @@
+Exibição das mudanças com o diff
+
+Somente esse comando não mostra as Mudanças que já foram feitas em commits
+já salvos.
+Comando:
+git diff
+
+Mostra o que há de diferença entre os códigos, usando o comando
+-------------------------------------------------------------------------
+Detalhe em uma linha do commit
+comando antes:
+git log --oneline
+
+Comando:
+git diff numero-do-commit..numero-do-ultimo-commit
+
+Aqui ele mostra de uma pouco até o outro que queremos saber o que há de 
+mudança. 
+-------------------------------------------------------------------------
+Comando 
+git diff 
+
+---mostra as alterações que foram feitas e o que ainda não foi 
+comitado, se tiver feito algo no código e por algum motivo tiver precisado
+parar e quando voltar não souber o que fez. 
+
+
+Alternativa correta! O sinal de subtração (-) antes da linha indica que
+ela não está mais presente no arquivo. Já o sinal de adição (+) mostra
+que é uma linha nova. Alterações são representadas por uma remoção e
+uma adição de linha.

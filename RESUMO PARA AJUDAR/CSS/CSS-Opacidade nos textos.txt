@@ -1,0 +1,9 @@
+Opacidade nos Textos
+
+No Css3 foi adicionando ao color rgb uma forma de já deixá-lo opaco
+
+Adiciona o cor e o a ao final, significa alpha e coloca o quando de 
+opaco quer que fique o texto.
+
+exemplor:
+color: rgba(0,0,0,0.3)

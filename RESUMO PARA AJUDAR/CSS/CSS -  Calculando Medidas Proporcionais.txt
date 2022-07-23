@@ -1,0 +1,12 @@
+Medidas Proporcionais
+
+Como usar as medidas proporcionais para deixar um elemento de 100% 
+de largura com o equivalente a um terço do elemento pai, menos 10px?
+
+
+width: calc( (100% / 3) - 10px )
+Alternativa correta! Essa é uma forma mais complexa, não 
+precisa dessa primeira conta!
+
+width: calc( 33% - 10px )
+Alternativa correta! Essa é a forma mais direta!

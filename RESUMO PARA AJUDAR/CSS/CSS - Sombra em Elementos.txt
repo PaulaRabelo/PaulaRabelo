@@ -1,0 +1,13 @@
+Sombra em elementos
+
+Usando 
+
+box-shadow: 10px 10px 30px 20px #000000
+
+Se eu quiser adicionar mais sombras só coloco a vírgula após. 
+
+box-shadow: 10px 10px 30px 20px #000000, -10px -10px yellow;
+
+Coloca colocar sombra somente em uma determinada parte do site
+
+box-shadow: inset 0 0 30px #ff0000;

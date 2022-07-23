@@ -1,0 +1,15 @@
+Como fazer deploy de arquivos
+
+----- Com o GITHUB
+Podemos usar o github para fazer isso, indo em setting-->page e escolhendo
+o arquivo que desejamos fazer 
+
+----- Com o VERCEL
+
+Site vercel.com
+
+--Ele atualiza o site sem precisa ficar fazendo vários deploys, já automaticamente.
+
+
+
+

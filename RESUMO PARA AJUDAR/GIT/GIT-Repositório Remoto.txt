@@ -1,0 +1,9 @@
+Trabalhando com repositórios remotos
+
+
+git remote add nome-repositorio caminho/para/o/repositorio
+
+
+Alternativa correta! Desta forma teremos um link do nosso repositório
+local com o repositório remoto, que chamamos de nome-repositorio, que
+está armazenado em caminho/para/o/repositorio.

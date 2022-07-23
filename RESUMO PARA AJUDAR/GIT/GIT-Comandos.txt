@@ -1,0 +1,57 @@
+GITHUB
+
+-----------------------------------------------------------------------
+--------Versão
+Aqui mostra o tipo de versão do git que está instalada na máquina. 
+Comando:
+git --version
+
+-----------------------------------------------------------------------
+-------Configurações com a máquina
+Antes de qualquer interação com o git, você precisa informar quem é você
+para que ele armazene corretamente os dados do autor de cada uma das 
+alterações no código.
+
+Comando: 
+git config --local user.name "Seu nome aqui"
+git config --local user.email "seu@email.aqui"
+
+-----------------------------------------------------------------------
+-------Instala o repo na máquina
+o Git passar a enxergar determinada pasta como um repositório e a 
+observar as mudanças em seus arquivos.
+
+Comando:
+git init 
+
+Obs.: O git init inicializa um repositório no diretório em que o 
+comando for executado. A partir deste comando, o Git poderá gerenciar
+as modificações realizadas nos arquivos.
+
+-----------------------------------------------------------------------
+-------Monitorar os arquivos no git
+
+Adicionar arquivos dentro do git, para fazer o monitoramente e eventualmente
+subi-los para o github.
+
+Comando para adicionar somente um arquivo:
+git add nome-do-arquivo
+
+Comando para adicionar todos os arquivos da pasta:
+git add .
+
+Comando para adicionar todos os arquivos modificados:
+git add --all
+
+------------------------------------------------------------------------
+------Modificações que serão enviadas como fazer
+
+Comando para enviar uma mensagem do que foi alterado, colocar uma mensagem 
+descritiva do commit. É uma boa prática colocar tudo dentro de aspas. 
+
+Comando:
+git commit -m "Mensagem do que foi alterado"
+
+
+
+

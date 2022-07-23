@@ -1,0 +1,28 @@
+Como selecionar conteúdo específico com CSS para destacar. 
+
+.itens:nth-child(4) - seleciona o elemento dentro da lista para fazer
+o que é para fazer dentro dele.
+
+exemplo: 
+.itens:nth-child(4){
+	font-weight:bold;
+}
+
+Seleciona o primeiro iten da lista para colocar o que foi pedindo dentro 
+dele.
+
+.itens:first-child{
+    font-weight: bold;
+}
+
+Seleciona o último item
+
+.itens:last-child{
+    font-weight: bold;
+}
+
+Seleciona somente de 2 em 2 os itens da lista e faz a alteração que é descrita
+entre chaves.
+.itens:nth-child(2n){
+    font-weight: bold;
+}

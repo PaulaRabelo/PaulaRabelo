@@ -1,0 +1,22 @@
+Seletores Avançados do Css
+
+Seleciona somente o p que é filho direto do main
+main > p {
+	background: red;
+}
+
+Seleciona somente o parágrafo que vem logo após uma imagem. 
+img + p{
+	background: blue;
+}
+
+Seleciona todos os paragrafos que vem depois de uma imagem
+img ~ p{
+	background: yellow;
+}
+
+Exclusão - Seleciona todos os paragrafos que não são o paragrafo identificado com 
+missão
+.principal p:not(#missao){
+	background: orange;
+}

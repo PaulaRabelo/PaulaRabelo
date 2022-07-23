@@ -1,0 +1,21 @@
+Qual a propriedade de um input do tipo radio que preciso criar para que 
+eles façam parte do mesmo grupo?
+
+Alternativa correta! A propriedade name só pode ser "preenchida" uma única
+vez, por isso que, quando eu seleciono um dos itens, ele desmarca o outro,
+mantendo somente um selecionado.
+
+A propriedade name faz com grie um grupo e selecione apenas uma opção dentro
+daquele grupo.
+
+<div>
+     <p>Como prefere o nosso contato?</p>
+     <label for="radio-email">Email</label>
+     <input type="radio" name="contato" value="email" id="radio-email">
+    
+     <label for="radio-telefone">Telefone</label>
+     <input type="radio" name="contato" value="telefone" id="radio-telefone">
+    
+     <label for="radio-whatsapp">WhatsApp</label>
+     <input type="radio" name="contato" value="whatsapp" id="radio-whatsapp">
+</div>
