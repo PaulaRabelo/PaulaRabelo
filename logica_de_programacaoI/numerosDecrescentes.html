@@ -1,0 +1,21 @@
+<meta charset="UTF-8">
+
+<script>
+
+    function pulaLinha(){
+        document.write("<br><br>");
+    }
+
+    function mostra(frase){
+        document.write(frase);
+        pulaLinha();
+    }
+
+   var n = 0; 
+    while(n <= 20){ 
+        mostra("Números de " + ( 20 - n ));  
+        n = n + 1;  
+    }
+    mostra("Fim")
+
+</script>
