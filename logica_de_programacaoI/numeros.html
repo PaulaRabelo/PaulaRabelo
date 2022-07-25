@@ -1,0 +1,23 @@
+<meta charset="UTF-8">
+
+<script>
+
+    function pulaLinha(){
+        document.write("<br><br>");
+    }
+
+    function mostra(frase){
+        document.write(frase);
+        pulaLinha();
+    }
+
+   var n = 30; //o número que começar a jornada. 
+    while(n <= 40){ // aqui encanto o n for menor ou igual a 40 vai fazer o que pedi dentro da condição. 
+        if(n != 33 && n != 37){ // essa condicional aqui faz a negação n diferente de 33 e de 37 com o operador != e tem o operador && que pega as duas condições juntas. Ele diz ao programa: se n for 33 e se for 37 não imprima
+            mostra("Números " + n); // aqui ele vai mostrar só os números que são pedidos. 
+        }
+        n = n + 1; // vai somando. 
+    }
+    mostra("Fim")
+
+</script>

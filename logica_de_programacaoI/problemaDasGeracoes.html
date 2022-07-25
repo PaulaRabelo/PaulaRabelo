@@ -1,0 +1,23 @@
+<meta charset="UTF-8">
+
+<script>
+
+    function pulaLinha(){
+        document.write("<br>")
+    }
+
+    function mostra(texto){
+        document.write(texto)
+    }
+
+    let anoChegadaPortugueses = 1500;
+    let anoAtual = 2022;
+    let mediaAnos = 28;
+
+    let calculoDasGeracoes = (anoAtual - anoChegadaPortugueses) / mediaAnos;
+
+    mostra("Gerações que se passaram até hoje serão " + Math.round(calculoDasGeracoes));
+    pulaLinha();
+
+
+</script>
