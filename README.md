@@ -1,8 +1,8 @@
 ### Oi! Eu sou Paula Rabelo 👋
 
 
-- 🔭 Hoje trabalho como Dev Full Stack
-- 🌱 Estudando Next.Js
+- 🔭 Hoje trabalho como Professora de Tecnologia/Frontend
+- 🌱 Sempre estudando
 - 📫 Contate-me no email: rabelooliveira.ap@gmail.com
 - 😄 Pronouns: ela/dela
 
