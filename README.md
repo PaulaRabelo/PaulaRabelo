@@ -1,10 +1,11 @@
-### Oi! Eu sou Paula Rabelo 👋
+# Oi! Eu sou Paula Rabelo 👋
 
+Sou apaixonada por tecnologia e desenvolvimento web, sempre buscando criar soluções criativas e eficientes. Meu foco principal é no desenvolvimento **Frontend** e na criação de experiências incríveis para os usuários.
 
-- 🔭 Hoje trabalho como Professora de Tecnologia/Frontend
-- 🌱 Sempre estudando
-- 📫 Contate-me no email: rabelooliveira.ap@gmail.com
-- 😄 Pronouns: ela/dela
+- 💻 **Tecnologias:** JavaScript, TypeScript, React, HTML5, CSS3, Node.js  
+- 🌱 **Atualmente aprendendo:** Aperfeiçoando minhas habilidades em frameworks modernos e desenvolvimento full stack.  
+- 🎯 **Objetivo:** Contribuir para projetos desafiadores e inovadores, ajudando empresas a transformar ideias em realidade.  
+- 📫 **Contate-me:** rabelooliveira.ap@gmail.com  
 
 <div align="center">
   <a href="https://github.com/PaulaRabelo">
